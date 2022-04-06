@@ -1,15 +1,15 @@
 # -*- mode: snippet -*-
 # name: doctype
-# key: <!
+# key: !
 # --
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>${1:title of the document}</title>
+  <title>${1:TITLE}</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
 </head>
-
 <body>
 $0
 </body>
-
 </html>
