@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: deploy
+# key: #
+# --
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: (league, beige, sky, night, serif, simple, solarized, moon)
+#+OPTIONS: timestamp:nil, toc:1, num:nil
+:END:
+
+#+title:${1:title}
+#+author: Jom Dollesin
+#+property: header-args:${2:language} :tangle ${3:where}
