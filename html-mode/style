@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: style
-# key: style
+# name:style
+# key:style
 # --
-<style>$8</style>
+<link rel="stylesheet" href="style.css" />
